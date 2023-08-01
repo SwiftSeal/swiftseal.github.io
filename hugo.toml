@@ -1,0 +1,22 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'The Cowboy Zone'
+theme = 'archie'
+
+[params]
+    mode = 'auto'
+
+[[params.social]]
+    name = 'GitHub'
+    icon = 'github'
+    url = 'https://github.com/SwiftSeal/'
+
+[[params.social]]
+    name = 'LinkedIn'
+    icon = 'linkedin'
+    url = 'https://linkedin.com/in/moray-smith-820860254'
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
