@@ -57,37 +57,22 @@ h1 {
   font-size: 26px;
 }
 h2 {
-  font-size: 23px;  pre {
-    background-color: #f5f5f5; /* Light grey background */
-    padding: 10px; /* Padding inside the pre element */
-    border-radius: 5px; /* Optional: rounded corners */
-    overflow-x: auto; /* Ensure long code lines are scrollable horizontally */
-    max-width: 100%; /* Ensure the pre element does not exceed the width of its container */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
-    white-space: pre; /* Preserve whitespace and ensure code does not wrap */
-  }
-  
-  code {
-    font-family: "Courier New", Courier, monospace; /* Monospaced font */
-    color: #333; /* Text color */
-    font-size: 14px; /* Font size */
-  }
+  font-size: 23px;
 }
 
 pre {
-  background-color: #f5f5f5; /* Light grey background */
-  padding: 10px; /* Padding inside the pre element */
-  border-radius: 5px; /* Optional: rounded corners */
-  overflow-x: auto; /* Ensure long code lines are scrollable horizontally */
-  max-width: 100%; /* Ensure the pre element does not exceed the width of its container */
-  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  word-wrap: normal;
+  overflow-x: auto;
+  white-space: nowrap;
+  min-width: 80ch;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 code {
   font-family: "Courier New", Courier, monospace; /* Monospaced font */
   color: #333; /* Text color */
   font-size: 14px; /* Font size */
-  white-space: pre-wrap; /* Ensure code wraps within the pre element */
 }
 
 @media screen and (max-width: 430px) {
