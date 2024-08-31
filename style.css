@@ -7,6 +7,8 @@ body {
 
   color: #444;
 
+  overflow-x: auto;
+
   display: grid;
   row-gap: 5px;
   grid-template-columns: auto auto;
@@ -43,6 +45,8 @@ article {
 
   grid-area: ct;
   border-top: 2px solid gray;
+
+  overflow-x: auto;
 }
 
 a {
@@ -61,12 +65,12 @@ h2 {
 }
 
 pre {
-  word-wrap: normal;
+  white-space: pre;
   overflow-x: auto;
-  white-space: nowrap;
-  min-width: 80ch;
+  display: block;
   max-width: 100%;
   box-sizing: border-box;
+  word-wrap: break-word;
 }
 
 code {
