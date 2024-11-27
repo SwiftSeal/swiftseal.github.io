@@ -1,0 +1,11 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = 'Morays Website'
+theme = 'hugo-simple'
+
+[[menu.main]]
+name = 'Home'
+pageRef = '/'
+[[menu.main]]
+name = 'Posts'
+pageRef = '/posts'
