@@ -1,6 +1,6 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'swiftseal.github.io'
 languageCode = 'en-us'
-title = 'Morays Website'
+title = "Moray's Website"
 theme = 'hugo-simple'
 
 [[menu.main]]
