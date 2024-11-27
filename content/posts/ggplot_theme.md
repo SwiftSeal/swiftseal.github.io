@@ -1,6 +1,10 @@
 +++
 date = '2024-11-27T09:30:32Z'
 title = 'A simple ggplot2 style'
+tags = [
+  "R",
+  "Visualisation",
+]
 +++
 
 Upon first discovering [ggplot2](https://ggplot2.tidyverse.org), peoples' first reaction is normally "Oh my goodness why is this so much better than everything else?".

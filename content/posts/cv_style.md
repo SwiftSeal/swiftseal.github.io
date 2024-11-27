@@ -1,16 +1,20 @@
 +++
 date = '2024-11-27T09:40:07Z'
 title = 'Making an easy CV'
+tags = [
+  "Typst",
+  "Visualisation",
+]
 +++
 
 Designing your CV is a great way to procrastinate from doing any actual useful work, so of course I spent most of yesterday doing just that, rather than finishing my thesis corrections.
 
 I'm not a fan of word or microsoft, so previously I've used latex to make my CV which has been fine, but there have always been a few issues with it:
 
-1) I am overall not a fan of the latex langauge - it's fairly verbose and normally involves importing a dozen packages from CTAN, and mining stackoverflow for fixes to those annoying quirks that latex has.
-2) As a result of those challenges, I've previously leaned into using existing templated to generate my CV. My problem with existing templates is that they often overcomplicate things with multilanguage support, hundreds of functions to define content, or really stupid CV formats (why is there a picture of your face; why do you have a side bar?; why do you have a barchart for your 'skills'?).
+1) I am overall not a fan of the latex language - it's fairly verbose and normally involves importing a dozen packages from CTAN, and mining stackoverflow for fixes to those annoying quirks that latex has.
+2) As a result of those challenges, I've previously leaned into using existing templates to generate my CV. My problem with existing templates is that they often overcomplicate things with multilanguage support, hundreds of functions to define content, or really stupid CV formats (why is there a picture of your face; why do you have a side bar?; why do you have a barchart for your 'skills'?).
 3) Given that it's an academic CV, I want to include my publications, which you'd expect `.bib` files to be the answer to, but again needs a fair amount of sleuthing to figure out how to implement this.
-4) As a result of both of the above, when the infrequent time comes to re-do your CV, you've probably forgetten what anything does in the code.
+4) As a result of all of the above, when the infrequent time comes to re-do your CV, you've probably forgetten what anything does in the code.
 
 This time, I decided to use [typst](https://typst.app) to generate my CV.
 It's a pretty interesting project which I hope continues to grow in popularity, but I've never really had the chance to use it apart from testing it's capacity to build my thesis via pandoc (had to fallback to latex for this).
