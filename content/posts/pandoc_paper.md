@@ -1,5 +1,5 @@
 +++
-date = '2025-02-25T09:30:32Z'
+date = '2025-02-15T09:30:32Z'
 title = 'Writing manuscripts with pandoc'
 tags = [
   "Pandoc",
