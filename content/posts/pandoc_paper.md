@@ -18,7 +18,7 @@ I also [don't like writing in LaTex]({{ ref "/posts/cv_style.md" }}), as I find 
 
 The solution I found was to use [`pandoc`](https://pandoc.org/), which allows you to write in markdown, then compile to either LaTeX or docx:
 
-```{bash}
+```
 # Create a pdf via latex
 pandoc main.md -o main.pdf
 
@@ -31,7 +31,7 @@ This way you can hand collaborators a docx file, have your final product rendere
 A clever feature of pandoc is that document metadata - the title, authors, even the abstract - can be set via YAML blocks.
 These be specified via a separate `.yaml` file, or directly in the `.md` document:
 
-```{markdown}
+```
 ---
 title: My paper
 author: Moray Smith
@@ -67,7 +67,7 @@ How to do this?
 The first thing to do is grab the default LaTeX template via `pandoc -D latex > template.tex`.
 I then added the following packages:
 
-```{latex}
+```
 \usepackage{pdfx} % adds PDF/A support
 \usepackage{lineno} % gives me line numbering
 \usepackage{microtype} % for better typesetting
@@ -83,7 +83,7 @@ I then added the following packages:
 To support ORCiDs and affiliations, I'm going to need to add some custom YAML variables to pandoc.
 The ideal format is something like:
 
-```{markdown}
+```
 ---
 title: My paper
 author:
@@ -111,7 +111,7 @@ geometry:
 
 To support these, all I need to add to the template is:
 
-```{latex}
+```
 $for(author)$
 \author[$for(author.affiliation)$$author.affiliation$$sep$, $endfor$]{$author.name$ $if(author.orcid)$\orcidlink{$author.orcid$}$endif$}
 $endfor$
@@ -132,7 +132,7 @@ The final change is to add `\linenumbers` prior to the definition of `$body$` in
 A final issue I encountered was that I couldn't install pandoc or LaTeX on my work computer as they are quite restricted.
 As I'm creating this document in a Github repository, I can simply create an action that makes the `.tex`, `.pdf`, and `.docx` for me!
 
-```{yaml}
+```
 name: Build
 on: push
 jobs:
