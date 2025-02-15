@@ -14,7 +14,7 @@ There are also benefits to writing in a simpler markup such as [markdown](https:
 
 However, a problem I quickly encountered when switching to LaTeX was that supervisors/collaborators were not comfortable writing in LaTeX, or reviewing a pdf.
 They wanted a `.docx` for the tracked changes.
-I also [don't like writing in LaTex]({{ ref "/posts/cv_style.md" }}), as I find its syntax to be pretty dated and hard to manage! 
+I also [don't like writing in LaTex]({{< ref "/posts/cv_style.md" >}}), as I find its syntax to be pretty dated and hard to manage! 
 
 The solution I found was to use [`pandoc`](https://pandoc.org/), which allows you to write in markdown, then compile to either LaTeX or docx:
 
@@ -189,7 +189,7 @@ You'll noticed I've used a non-standard docker image for this - the default pand
 
 Here's the final product:
 
-![Example of document](/static/images/example_paper.png)
+![Example of document](/images/example_paper.png)
 
 Paper isn't released yet so had to do some *light* editing, but you get the idea.
 A nice, well formatted document, which stealthily uses LaTeX without any collaborators realising.
