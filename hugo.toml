@@ -3,12 +3,3 @@ languageCode = 'en-us'
 title = "Moray's Website"
 theme = 'hugo-simple'
 
-[[menu.main]]
-name = 'Home'
-pageRef = '/'
-[[menu.main]]
-name = 'Posts'
-pageRef = '/posts'
-[[menu.main]]
-name = 'Links'
-pageRef = '/links'

@@ -7,14 +7,7 @@ I'm Moray - currently a researcher at the University of Dundee studying how plan
 Previously, I was a PhD student at the University of St Andrews where I studied potato genetics and disease resistance, supervised by Prof. Ingo Hein and Prof. John Jones.
 My undergraduate studies were at the University of Glasgow where I studied Molecular and Cellular Biology.
 
-I like to be in the lab, but I also enjoy working with computers.
-In the lab, I have experience with nucleic-acid techniques including long-read sequencing, Hi-C, and Ribo-Seq.
-I'm an advocate for nanopore sequencing and wish more people would try it out!
-On the computer side of things, I've carried out assemblies, gene annotation, epigenetics, metabarcoding...
-Really, just whatever needs to be done!
-I'm a big supporter for creating tools and pipelines that are user-friendly and reproducible.
-
-Outside of work, I enjoy spending time with my cat [Rhubarb](/images/rhubarb.png).
+Here's my cat [Rhubarb](/images/rhubarb.png).
 
 ## Software
 
