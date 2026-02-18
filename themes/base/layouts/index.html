@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <h1>{{ .Title | default .Site.Title }}</h1>
+  {{ .Content }}
+
+  <h2>Posts</h2>
+  <ul>
+    {{/* This ranges through all regular pages in the 'posts' section */}}
+    {{ range (where .Site.RegularPages "Section" "posts") }}
+      <li>
+        <time>{{ .Date.Format "2006-01-02" }}</time>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}

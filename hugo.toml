@@ -1,4 +1,11 @@
 baseURL = 'swiftseal.github.io'
 languageCode = 'en-us'
 title = "Moray's Website"
+theme = "base"
 
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+[services.rss]
+  limit = 20 # Only include the 20 most recent posts
