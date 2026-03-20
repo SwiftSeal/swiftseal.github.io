@@ -16,6 +16,6 @@ Here's my cat [Rhubarb](/images/rhubarb.png).
 
 ## Links
 
-* [LinkedIn](https://www.linkedin.com/in/moray-smith/) - I only use this to humblebrag or get spammed with nonsense motivational posts
+* [LinkedIn](https://www.linkedin.com/in/moray-smith/)
 * [Github](https://github.com/swiftseal/) - Most of my code (and this website!) are hosted here
 * [ORCiD](https://orcid.org/0000-0001-9363-3170) - Academic record stuff
