@@ -1,6 +1,6 @@
 +++
 date = '2026-06-24'
-title = 'Hey Org.At.tair.db - where's my gene?'
+title = 'Hey Org.At.tair.db - where did my gene go?'
 +++
 
 When creating summary tables for RNA-seq, I like to provide human readable gene IDs and descriptions alongside the standard TAIR IDs.
